@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: research-assistant-frontend
+    env: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./build
+    envVars:
+      - key: REACT_APP_BACKEND_URL
+        value: https://your-backend-url.onrender.com
