@@ -5,5 +5,5 @@ services:
     buildCommand: npm install && npm run build
     staticPublishPath: ./build
     envVars:
-      - key: REACT_APP_BACKEND_URL
-        value: https://your-backend-url.onrender.com
+      - key: REACT_APP_API_URL
+        value: https://76ae-34-19-14-206.ngrok-free.app
