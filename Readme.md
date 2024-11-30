@@ -2,6 +2,13 @@
 
 Frontend for LlamaSearch - AI-powered search interface. Built with React and TailwindCSS. 
 (Backend code is in a separate repository)
+ 
+ 
+  return (
+    <div>
+      <img src="/images/llamasearch.png" alt="LlamaSearch" />
+    </div>
+  );
 
 ## Tech Stack (Frontend)
 - React 18.2.0
